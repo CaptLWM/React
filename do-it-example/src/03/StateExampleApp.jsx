@@ -1,5 +1,5 @@
 import React from 'react';
-import StateExample from './03/StateExample';
+import StateExample from './StateExample';
 
 class App extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 // src폴더안에 App.js을 연 다음 기존 내용을 모두 지우고 아래의 내용으로 작성해 보세요
 import React from 'react';
-import Counter from './03/Counter';
-import NewCounter from './03/NewCounter';
+import Counter from './Counter';
+import NewCounter from './NewCounter';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,8 +15,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div><Counter count={this.state.count} /></div>
-        <div><NewCounter count={this.state.count} /></div>
+        <div>
+          <Counter count={this.state.count} />
+        </div>
+        <div>
+          <NewCounter count={this.state.count} />
+        </div>
         <button onClick={this.resetCount}>{this.state.count + 10}으로 초기화</button>
       </div>
     );

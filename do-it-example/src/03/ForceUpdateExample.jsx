@@ -16,7 +16,7 @@ class ForceUpdateExample extends React.Component {
     // 상태 변경
     this.loading = false;
     this.formData = data + this.formData;
-    this.forceUpdate();
+    this.forceUpdate(); // 강제 업데이트
   }
   render() {
     return (

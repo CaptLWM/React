@@ -7,15 +7,17 @@ import React from 'react';
 //import MyComponent from './03/PropsParentComponent';
 //import MyComponent from './03/PropsComponent';
 //import MyComponent from './03/ChildComponentExample';
-import MyComponent from './03/ChildComponentApp';
+//import MyComponent from './03/ChildComponentApp';
 //import MyComponent from './03/BooleanPropExample';
 //import MyComponent from './03/DefaultPropsExample';
 //import MyComponent from './03/ChildPropertyApp';
 //import MyComponent from './03/StateExampleApp';
-//import MyComponent from './03/ForceUpdateExampleApp';
+//import MyComponent from './03/ForceUpdateExample';
 //import MyComponent from './03/LifecycleExampleApp';
+//import MyComponent from './03/CounterApp';
 //import MyComponent from './03/CounterExample';
 //import MyComponent from './03/ListExample';
+//import MyComponent from './03/ScrollSpy';
 
 class App extends React.Component {
   render() {
