@@ -1,0 +1,4 @@
+sudo su -
+cd /home/ubuntu/
+chown -R root:ubuntu reactMapKakao
+chmod -R 770 reactMapKakao
