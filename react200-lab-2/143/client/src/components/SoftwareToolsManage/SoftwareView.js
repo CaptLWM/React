@@ -38,6 +38,7 @@ class SoftwareView extends Component {
           //var manualName = data.swt_manual_path.replace('/swmanual/','')
           //var fileName = data.swt_big_imgpath.replace('/image/','')
           //var fileName2 = data.swt_imagepath.replace('/image/','')
+          //파일 첨부하기 위한 코드 추가
           var manualName, fileName, fileName2;
           if (data.swt_manual_path != null)
             manualName = data.swt_manual_path.replace("/swmanual/", "");
@@ -191,7 +192,7 @@ class SoftwareView extends Component {
     const formData = new FormData();
     formData.append("file", this.state.selectedFile);
     return axios
-      .post("/api/upload?type=uploads/swmanual/", formData)
+      .post("/api/upload?type=uploads/swmanual/", formData) // 업로드 파일 전송
       .then((res) => {
         this.setState({ menualName: res.data.filename });
         $("#is_MenualName").remove();

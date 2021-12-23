@@ -21,7 +21,7 @@
       , #{is_Organization}
       , CONCAT(#{is_Useremail1}, '@', #{is_Useremail2})
       , #{is_Password}
-      , #{is_Usermajor}
+      , #{is_Usermajor} 
       , CONCAT(#{is_Userphone1}, '-', #{is_Userphone2},'-', #{is_Userphone3})
       , 'Y'
       , DATE_FORMAT(now(), '%Y%m%d%H%i%s')
