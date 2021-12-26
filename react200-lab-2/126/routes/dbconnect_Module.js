@@ -7,11 +7,11 @@ router.use(bodyParser.json());
 
 //mysql 서버 접속 정보
 const connection = mysql.createConnection({
-  host: "react200.cinvalghkckt.ap-northeast-2.rds.amazonaws.com",
+  host: "localhost",
   port: "3306",
   database: 'react',
-  user: "admin",
-  password: "react200RDS",
+  user: "react",
+  password: "react",
 });
 
 router.post("/", (req, res) => {
