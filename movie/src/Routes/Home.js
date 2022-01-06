@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Movie from "../components/Movie";
+import Movie from "../Components/Movie";
 //import TestModal from "../components/TestModal";
 //import { Button } from "react-bootstrap";
 //import TestModal from "../components/TestModal";

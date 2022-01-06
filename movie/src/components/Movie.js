@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 //import { Link } from "react-router-dom";
 import TestModal from "./TestModal";
 
-function Movie({ id, coverImg, title }) {
+function Movie({ id, coverImg, title, summary, genres }) {
   return (
     <div>
       <img src={coverImg} alt={title} />
       <h2>
         {/* <Link to={`/movie/${id}`}> */}
-        <TestModal title={title} id={id} />
+        <TestModal title={title} id={id} summary={summary} genres={genres} />
         {/* </Link> */}
       </h2>
       {/* <p>{summary}</p>
