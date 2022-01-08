@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Routes/Home";
-//import Detail from "./Routes/Detail";
+import Carousel from "./Routes/Carousel";
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
         <Route path="/hello">
           <h1>Hello</h1>
         </Route>
-        {/* <Route path="/movie/:id">
-          <Detail />
-        </Route> */}
+        <Route path="/Carousel">
+          <Carousel />
+        </Route>
         <Route path="/">
           <Home />
         </Route>
